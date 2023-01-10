@@ -1,0 +1,76 @@
+/* NAME: Ramlochund Gitendrajeet*/
+/* Advanced Web Assignement */
+/* CSS for Registration Form*/
+h1,p{
+    text-align: center;
+
+}
+
+  /* Formatting for form element */
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  /* Formatting for fieldset with custom rgb color*/
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid rgb(84, 198, 211);
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+
+ /* Formatting for input and textarea elements with custom rgb color*/
+  input{
+    background-color: rgb(84, 198, 211);
+    border: 1px solid rgb(0, 183, 199);
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+
+  /* Formatting for input type elements with custom rgb color*/
+  input[type='submit'] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2.5em;
+    font-size: 1.1rem;
+    color:– rgb(167, 169, 172);
+    background-color:rgb(84, 198, 211);
+    border-color: rgb(0, 183, 199);
+    min-width: 200px;
+  }
+
+/* Formatting for input hover element for pointer*/
+  input[type='submit']:hover {
+    cursor: pointer;
+  }
+
+  
+  
+  
+  
+  
