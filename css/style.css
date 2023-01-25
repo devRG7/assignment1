@@ -193,12 +193,29 @@ html{
     color:rgb(99, 100, 102);
     padding:10px;
   }
- 
-  ul{
+  /* CSS formatting for sub elements ul li  */
+  .sub ul li {
     text-align:justify;
-    padding: auto;
-    
+    padding: 10px;
+    text-decoration: none; 
   }
+  /* CSS formatting for sub elements a */
+  .sub  a:link {
+    outline: none;
+    text-decoration: none;
+    color: rgb(99, 100, 102);
+  }
+    /* CSS formatting for sub elements a on hover */
+  .sub a:hover{
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    background: rgb(0, 171, 189);
+    text-transform: uppercase;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+    
  /* CSS formatting for table elements */
   table {
     border-collapse: collapse;
@@ -221,6 +238,8 @@ html{
     background-color: rgb(167, 169, 172);
     
   }
+
+   /* CSS formatting for Videos */
   .video{
     width:100%;
     padding:20px;
@@ -229,7 +248,14 @@ html{
   .video-playback{
     width:100%;
     padding:20px;
+    padding-left: 40px;
     display: flex;
+  }
+
+  .video-playback iframe{
+    width: 580px;
+    height: 325px;
+    
   }
   
   .video p{
@@ -239,27 +265,7 @@ html{
     text-shadow: 2px 2px 8px rgb(99, 100, 102);
     text-align: center;
   }
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   /* CSS formatting for footer */
   footer {
     background: rgb(0, 171, 189);
     clear: both;
